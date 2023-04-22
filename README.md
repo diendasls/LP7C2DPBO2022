@@ -4,7 +4,7 @@
 
 
 ## Deskripsi Latihan 7
-Memodifikasi kode yang ada. Ketika pencet WASD, skor masih jadi 1 2 3 4 secara hardcode. Modifikasi skor nya sehingga ketika mengganti tombol yang ditekan, skornya selalu bertambah. Misalnya, posisi sekarang 0. Tekan W, tambah 1. Jadi satu, berhenti. Tekan D, tambah satu. Jadi 2, berhenti. Tekan apapun lagi asal WASD, tambah satu. Jadi 3. dst.
+Memodifikasi kode yang ada. Ketika menekan WASD, skor masih jadi 1 2 3 4 secara hardcode. Modifikasi skor nya sehingga ketika mengganti tombol yang ditekan, skornya selalu bertambah. Misalnya, posisi sekarang 0. Tekan W, tambah 1. Jadi satu, berhenti. Tekan D, tambah satu. Jadi 2, berhenti. Tekan apapun lagi asal WASD, tambah satu. Jadi 3. dst.
 
 
 ## Alur Program
