@@ -16,7 +16,8 @@ Modifikasi kode yang sudah diberikan, dengan ketentuan sebagai berikut:
 
 
 ## Alur Program
-User menekan salah satu tombol __W, A, S, D__ atau __UP, LEFT, DOWN, RIGHT__ sehingga score akan bertambah menjadi 1 dari yang awal mula nya 0, dan akan terus bertambah 1 ketika user menekan tombol lainnya hingga user tidak menekan tombol lagi. Jika user menekan tombol yang sama (ex: user tekan W, kemudian tekan W kembali), maka score tidak akan mengalami perubahan (akan tetap pada score terakhir yang dicapai).
+- User menekan salah satu tombol __W, A, S, D__ atau __UP, LEFT, DOWN, RIGHT__ sehingga score akan bertambah menjadi 1 dari yang awal mula nya 0, dan akan terus bertambah 1 ketika user menekan tombol lainnya hingga user tidak menekan tombol lagi. 
+- Jika **user menekan tombol yang sama** (ex: user tekan W, kemudian tekan W kembali), maka score tidak akan mengalami perubahan (akan tetap pada score terakhir yang dicapai).
 
 
 ## Dokumentasi Program
