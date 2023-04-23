@@ -4,7 +4,15 @@
 
 
 ## Deskripsi Latihan 7
-Memodifikasi kode yang ada. Ketika menekan WASD, skor masih jadi 1 2 3 4 secara hardcode. Modifikasi skor nya sehingga ketika mengganti tombol yang ditekan, skornya selalu bertambah. Misalnya, posisi sekarang 0. Tekan W, tambah 1. Jadi satu, berhenti. Tekan D, tambah satu. Jadi 2, berhenti. Tekan apapun lagi asal WASD, tambah satu. Jadi 3. dst.
+Modifikasi kode yang sudah diberikan, dengan ketentuan sebagai berikut:
+1. Pemain mengendalikan bola. Setiap kali bola bergerak, skor pemain bertambah +1.
+2. Skor hanya bertambah jika pemain berbelok, bukan bergerak berurutan. Detail: 
+    - Saat pertama kali membuka program, pemain bergerak ke arah manapun, skor +1.
+    - Setelah pemain bergerak, dia harus bergerak ke arah lain agar skornya +1. Jika menekan tombol yang sama, skor tetap (+0).
+    - Contoh, pemain membuka program, lalu bergerak ke kanan dan berhenti, maka skor bertambah +1. Jika pemain bergerak ke arah atas, bawah, atau kiri, maka skor bertambah +1. Namun, jika pemain bergerak ke kanan lagi, maka skor +0.
+    - Bagaimana jika urutannya, kanan - atas - kiri - kanan? Kanan yang kedua tetap +1, karena pergerakan pemain sebelumnya adalah kiri, sehingga tidak dianggap berurutan.
+3. [BONUS] Buatlah sistem game yang menambahkan satu kotak atau objek apapun secara acak. Jika pemain menyentuh objek tersebut, skor bertambah +5 atau +10, lalu objek akan berpindah lagi ke posisi lain secara acak.
+4. Belajar untuk meng-compile secara manual, bukan di-run via IDE. Hal ini bertujuan untuk membantu saat presentasi TMD nanti.
 
 
 ## Alur Program
