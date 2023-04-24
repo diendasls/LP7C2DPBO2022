@@ -14,6 +14,19 @@ Modifikasi kode yang sudah diberikan, dengan ketentuan sebagai berikut:
 3. [BONUS] Buatlah sistem game yang menambahkan satu kotak atau objek apapun secara acak. Jika pemain menyentuh objek tersebut, skor bertambah +5 atau +10, lalu objek akan berpindah lagi ke posisi lain secara acak.
 4. Belajar untuk meng-compile secara manual, bukan di-run via IDE. Hal ini bertujuan untuk membantu saat presentasi TMD nanti.
 
+## Design Program
+Terdiri dari file:
+1. Assets : aset dari game (background picture)
+2. Synchronization:
+    -  **_Controller.java :_** Alur logic game. File ini dimodified di bagian *(when key is released from being pressed)*, yang mana untuk mengubah score player (menjadi +1) jika bergerak saat menekan salah satu tombol __W, A, S, D__ atau __UP, LEFT, DOWN, RIGHT__, dan akan terus bertambah ketika user menekan tombol yang berbeda dari sebelumnya. Sehingga ketika user telah menekan salah satu tombol, misalnya UP, maka score akan bertambah 1, kemudian check apakah tombol selanjutnya yang ditekan user tidak sama dengan tombol sebelumnya. Jika tombol yang ditekan kedua kali tidak sama dengan tombol pertama, maka score bertambah 1 lagi, dst. 
+    -  **_Display.java :_** Menyediakan container untuk JFrame.
+    -  **_Game.java :_** Main program (main logic dari game).
+    -  **_GameInterface.java :_**  Interface untuk menyimpan function utama yang ada di dalam struktur game
+    -  **_GameObject.java :_** Class abstract untuk menampung object-obcject game
+    -  **_Handler.java :_** Menampung object-object yang akan dirender di layar
+    -  **_Player.java :_** Object dari game, inheritance dari class abstract GameObject
+    -  **_Synchronization.java :_** Menjalankan game
+
 
 ## Alur Program
 - User menekan salah satu tombol __W, A, S, D__ atau __UP, LEFT, DOWN, RIGHT__ sehingga score akan bertambah menjadi 1 dari yang awal mula nya 0, dan akan terus bertambah 1 ketika user menekan tombol lainnya hingga user tidak menekan tombol lagi. 
