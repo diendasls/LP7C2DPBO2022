@@ -18,7 +18,7 @@ Modifikasi kode yang sudah diberikan, dengan ketentuan sebagai berikut:
 Terdiri dari file:
 1. Assets : aset dari game (background picture)
 2. Synchronization:
-    -  **_Controller.java :_** Alur logic game. File ini dimodified di bagian *(when key is released from being pressed)*, yang mana untuk mengubah score player (menjadi +1) jika bergerak saat menekan salah satu tombol __W, A, S, D__ atau __UP, LEFT, DOWN, RIGHT__, dan akan terus bertambah ketika user menekan tombol yang berbeda dari sebelumnya. Sehingga ketika user telah menekan salah satu tombol, misalnya UP, maka score akan bertambah 1, kemudian check apakah tombol selanjutnya yang ditekan user tidak sama dengan tombol sebelumnya. Jika tombol yang ditekan kedua kali tidak sama dengan tombol pertama, maka score bertambah 1 lagi, dst. 
+    -  **_Controller.java :_** Alur logic game. File ini dimodified di bagian *when key is released from being pressed*, yang mana untuk mengubah score player (menjadi +1) jika bergerak saat menekan salah satu tombol __W, A, S, D__ atau __UP, LEFT, DOWN, RIGHT__, dan akan terus bertambah ketika user menekan tombol yang berbeda dari sebelumnya. Sehingga ketika user telah menekan salah satu tombol, misalnya UP, maka score akan bertambah 1, kemudian check apakah tombol selanjutnya yang ditekan user tidak sama dengan tombol sebelumnya. Jika tombol yang ditekan kedua kali tidak sama dengan tombol pertama, maka score bertambah 1 lagi, dst. 
     -  **_Display.java :_** Menyediakan container untuk JFrame.
     -  **_Game.java :_** Main program (main logic dari game).
     -  **_GameInterface.java :_**  Interface untuk menyimpan function utama yang ada di dalam struktur game
